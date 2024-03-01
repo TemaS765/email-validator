@@ -1,0 +1,16 @@
+{
+    "name": "shtorm/email-verificator",
+    "description": "Email verification",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Shtorm\\EmailVerificator\\": "src/"
+        }
+    },
+    "require": {},
+    "config": {
+        "platform": {
+            "php": "8.2"
+        }
+    }
+}
