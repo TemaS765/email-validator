@@ -16,6 +16,6 @@ class DnsMxVereficationRule implements VerificationRuleInterface
 
     public function getFailVerifyMessage(): string
     {
-        return 'Указан не существующий домен электронной почты';
+        return 'Указан несуществующий домен электронной почты';
     }
 }
